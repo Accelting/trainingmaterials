@@ -21,7 +21,6 @@ library(GGIR)
 # Set up directories ------------------------------------------------------
 datadir = c()
 outputdir = c()
-loglocation = c()
 
 
 # Define function call ----------------------------------------------------
