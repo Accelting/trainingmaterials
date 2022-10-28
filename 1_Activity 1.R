@@ -6,17 +6,7 @@
 
 
 # 1 - Install GGIR
-
-if ("GGIR" %in% installed.packages()) {
-  if (packageVersion("GGIR") < "2.8.0") {
-    install.packages("GGIR")
-  } else {
-    "Ready to go!"
-  }
-} else {
-  install.packages("GGIR")
-}
-
+install.packages("GGIR")
 library(GGIR)
 
 # 2 - Run GGIR with the default options
