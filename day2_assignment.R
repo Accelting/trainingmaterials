@@ -16,7 +16,10 @@ GGIR(datadir = "C:/mystudy/mydata",
      
 )
 
-# 3 - Run GGIR with sleeplog
+# 3 Create a sleeplog .csv file with the basic sleep log format to be used with 
+# the file you just processed.
+
+# 4 - Re-Run GGIR with the sleeplog
 # Pay attention at the ID in part2_summary reports, this needs to match the ID in the sleeplog
 
 GGIR(datadir = "C:/mystudy/mydata",
@@ -26,4 +29,4 @@ GGIR(datadir = "C:/mystudy/mydata",
 )
 
 
-# 3 - try it out yourself!
+# try it out yourself!
