@@ -16,8 +16,11 @@ GGIR(datadir = "C:/mystudy/mydata",
      
 )
 
-# 3 Create a sleeplog .csv file with the basic sleep log format to be used with 
-# the file you just processed.
+# 3 - If you are NOT using the data from this repository then create a sleeplog csv file
+#     with the basic sleep log format to be used with the file you just processed.
+
+# 3 -  If you are using the data from this repository then note that the sleep csv file is
+#      available here: https://github.com/Accelting/trainingmaterials/tree/main/sleeplog
 
 # 4 - Re-Run GGIR with the sleeplog
 # Pay attention at the ID in part2_summary reports, this needs to match the ID in the sleeplog
