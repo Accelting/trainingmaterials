@@ -9,6 +9,7 @@
 library(GGIR)
 
 # 2 - Run GGIR to get enough MX metrics to draw a radar plot
+# M1/3, M120, M60, M30, M15, M5
 
 GGIR(datadir = "C:/mystudy/mydata",
      outputdir = "D:/myresults",
