@@ -8,7 +8,7 @@
 # 1 - load GGIR
 library(GGIR)
 
-# 2 - Run GGIR with automated sleep detection
+# 2 - Run GGIR with automated sleep detection (HDCZA algorithm)
 
 GGIR(datadir = "C:/mystudy/mydata",
      outputdir = "D:/myresults",
@@ -17,6 +17,7 @@ GGIR(datadir = "C:/mystudy/mydata",
 )
 
 # 3 - Run GGIR with sleeplog
+# Pay attention at the ID in part2_summary reports, this needs to match the ID in the sleeplog
 
 GGIR(datadir = "C:/mystudy/mydata",
      outputdir = "D:/myresults",
