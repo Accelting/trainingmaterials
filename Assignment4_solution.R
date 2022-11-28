@@ -9,8 +9,14 @@
 library(GGIR)
 
 # 2 - GGIR part5
-GGIR(datadir = "C:/GGIRtraining/file/",
+GGIR(# assignment 1
+     datadir = "C:/GGIRtraining/file/",
      outputdir = "C:/GGIRtraining/assignments/",
+     mode = 5, # we assume that the milestone data from GGIR part 1 and 2 are still in output directory
+     do.report = c(2, 4, 5), # now we are also interested in part 5 reports
+     visualreport = TRUE, # now we can get the visualreport
+     # assignment 2
+     overwrite = FALSE, # we do not need to overwrite previous output files
      desiredtz = "Europe/Madrid",
      do.enmo = TRUE,   # optional (default)
      do.anglez = TRUE, # optional (default)
@@ -25,13 +31,12 @@ GGIR(datadir = "C:/GGIRtraining/file/",
                  (1440 - 5) / 1440),
      iglevels = 1,
      mvpathreshold = c(100, 140),
-     # advanced
+     # assignment 2, advanced
      qwindow = c(0, 7, 22, 24),
      # assignment 3.1
      HASIB.algo = "vanHees2015",
      HASPT.algo = "HDCZA",
      # assignment 3.2
-     overwrite = TRUE,
      idloc = 2,
      loglocation = "C:/GGIRtraining/sleeplog/sleeplog_GGIRtraining.csv",
      colid = 1, 
@@ -39,7 +44,6 @@ GGIR(datadir = "C:/GGIRtraining/file/",
      nnights = 7,
      sleeplogidnum = FALSE,
      # assignment 4
-     mode = 5,
      boutdur.mvpa = c(1, 2, 5, 10),
      boutcriter.mvpa = 0.8,
      boutdur.in = c(30, 60),

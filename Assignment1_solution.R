@@ -10,6 +10,9 @@ library(GGIR)
 
 # 2 - GGIR function call
 
-GGIR(datadir = "C:/GGIRtraining/file/",
+GGIR(# assignment 1
+     datadir = "C:/GGIRtraining/file/",
      outputdir = "C:/GGIRtraining/assignments/",
-     mode = 1:2)
+     mode = 1:2,
+     do.report = 2,
+     visualreport = FALSE)

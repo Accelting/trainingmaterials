@@ -10,9 +10,14 @@ library(GGIR)
 
 # 2 - GGIR function call
 
-GGIR(datadir = "C:/GGIRtraining/file/",
+GGIR(# assignment 1
+     datadir = "C:/GGIRtraining/file/",
      outputdir = "C:/GGIRtraining/assignments/",
      mode = 1:2,
+     do.report = 2,
+     visualreport = FALSE,
+     # assignment 2
+     overwrite = TRUE, # this will overwrite output from assignment 1
      desiredtz = "Europe/Madrid",
      do.enmo = TRUE,   # optional (default)
      do.anglez = TRUE, # optional (default)
@@ -27,6 +32,6 @@ GGIR(datadir = "C:/GGIRtraining/file/",
                  (1440 - 5) / 1440),
      iglevels = 1,
      mvpathreshold = c(100, 140),
-     # advanced
+     # assignment 2: advanced
      qwindow = c(0, 7, 22, 24))
 
