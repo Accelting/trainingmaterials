@@ -41,8 +41,8 @@ GGIR(# assignment 1
 
 # 2 - copy results/part4_nightsummary_clean.csv
 # This can also be done outside R (manually copy/paste file)
-file.copy(from = "C:/GGIRtraining/assignment 2/output_file/results/part4_nightsummary_sleep_cleaned.csv",
-          to = "C:/GGIRtraining/assignment 2/part4_nightsummary_sleep_cleaned.csv")
+file.copy(from = "C:/GGIRtraining/assignments/output_file/results/part4_nightsummary_sleep_cleaned.csv",
+          to = "C:/GGIRtraining/assignments/part4_nightsummary_sleep_cleaned.csv")
 
 # 3 - rerun GGIR using sleeplog
 GGIR(# assignment 1
@@ -73,7 +73,7 @@ GGIR(# assignment 1
      HASIB.algo = "vanHees2015",
      HASPT.algo = "HDCZA",
      # assignment 3.2
-     idloc = 2,
+     idloc = 6,
      loglocation = "C:/GGIRtraining/sleeplog/sleeplog_GGIRtraining.csv",
      colid = 1, 
      coln1 = 2,
