@@ -12,7 +12,7 @@ library(GGIR)
 GGIR(# assignment 1
      datadir = "C:/GGIRtraining/file/",
      outputdir = "C:/GGIRtraining/assignments/",
-     mode = 5, # we assume that the milestone data from GGIR part 1 and 2 are still in output directory
+     mode = 5, # we assume that the milestone data from GGIR part 1, 2, 3, and 4 are still in output directory
      do.report = c(2, 4, 5), # now we are also interested in part 5 reports
      visualreport = TRUE, # now we can get the visualreport
      # assignment 2
