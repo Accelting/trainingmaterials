@@ -45,9 +45,9 @@ GGIR(# assignment 1
      sleeplogidnum = FALSE,
      # assignment 4
      boutdur.mvpa = c(1, 2, 5, 10),
-     boutcriter.mvpa = 0.8,
-     boutdur.in = c(30, 60),
-     boutcriter = 0.95,
      boutdur.lig = 10,
+     boutdur.in = c(30, 60),
+     boutcriter.mvpa = 0.8,
+     boutcriter.in = 0.95,
      boutcriter.lig = 0.8,
      timewindow = "WW")
