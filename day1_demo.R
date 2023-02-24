@@ -9,7 +9,11 @@
 install.packages("GGIR")
 library(GGIR)
 
+
 # 2 - Run GGIR with the default options
+
+# Download file: https://bit.ly/3OGtwsq 
+
 GGIR(datadir = "C:/mystudy/mydata",
      outputdir = "D:/myresults",
      mode = 1:2, 
