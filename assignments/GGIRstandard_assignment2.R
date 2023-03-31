@@ -12,8 +12,7 @@
 # Derive intensity levels: 0, 50, 100, 200, 400, 800
 # Derive the intensity gradient
 # Use thresholds for MVPA: 100 and 140
+# Advanced: calculate these variables over the windows: 0am to 7am, 7am to 10pm, 10pm to 0am next day
 # ----------
 
 # Run the script via the source button
-# Advanced: look up the output and meaning of variables (vignette)
-# Optional: try to run GGIR parts 1 and 2 on your own data
