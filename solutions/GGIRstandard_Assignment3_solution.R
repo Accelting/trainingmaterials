@@ -17,6 +17,12 @@
 # Advanced: calculate these variables over the windows: 0am to 7am, 7am to 10pm, 10pm to 0am next day
 # ----------
 
+# assignment 3: ------
+# Detect SIBs with the "vanHees2015" algorithm
+# Detect SPT with the "HDCZA" algorithm
+# ----------
+
+
 # Run the script via the source button
 
 
@@ -25,19 +31,20 @@ library(GGIR)
 
 # 2 - GGIR function call
 
-GGIR(# assignment 2
-     datadir = "C:/GGIRtraining/file/",
-     outputdir = "C:/GGIRtraining/assignments/",
-     mode = 2,
-     overwrite = TRUE,
-     strategy = 4,
-     maxdur = 3,
-     qlevels = c((1440 - 120) / 1440,
-                 (1440 - 60) / 1440,
-                 (1440 - 30) / 1440,
-                 (1440 - 5) / 1440),
-     ilevels = c(0, 50, 100, 200, 400, 800),
-     iglevels = TRUE,
-     mvpathreshold = c(100, 140),
-     # advanced
-     qwindow = c(0, 7, 22, 24))
+GGIR(# assignment 3
+  datadir = "C:/GGIRtraining/file/",
+  outputdir = "C:/GGIRtraining/assignments/",
+  mode = 2,
+  overwrite = TRUE,
+  strategy = 4,
+  maxdur = 3,
+  qlevels = c((1440 - 120) / 1440,
+              (1440 - 60) / 1440,
+              (1440 - 30) / 1440,
+              (1440 - 5) / 1440),
+  ilevels = c(0, 50, 100, 200, 400, 800),
+  iglevels = TRUE,
+  mvpathreshold = c(100, 140),
+  qwindow = c(0, 7, 22, 24),
+  HASIB.algo = "vanHees2015",
+  HASPT.algo = "HDCZA")
