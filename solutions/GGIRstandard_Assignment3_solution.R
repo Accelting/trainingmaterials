@@ -34,7 +34,7 @@ library(GGIR)
 GGIR(# assignment 3
   datadir = "C:/GGIRtraining/file/",
   outputdir = "C:/GGIRtraining/assignments/",
-  mode = 2,
+  mode = 1:4,
   overwrite = TRUE,
   strategy = 4,
   maxdur = 3,
@@ -48,3 +48,6 @@ GGIR(# assignment 3
   qwindow = c(0, 7, 22, 24),
   HASIB.algo = "vanHees2015",
   HASPT.algo = "HDCZA")
+
+
+
