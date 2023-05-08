@@ -4,6 +4,7 @@
 # Objects
 # Classes
 # Vectors
+# Subsetting
 # Setting directories and files paths
 # R functions & documentation
 # Specifying paths to folders and files
