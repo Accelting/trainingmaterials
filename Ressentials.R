@@ -1,7 +1,6 @@
 # install R & RStudio (updates)
 # The RStudio interface
-# R scripts
-# Source and run buttons
+# R scripts, source/run buttons
 # Objects
 # Classes
 # Vectors
