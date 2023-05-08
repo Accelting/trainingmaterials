@@ -3,11 +3,13 @@
 # R scripts, source/run buttons
 # Objects
 # Classes
+# numeric
+# character
+# logical
 # Vectors
 # Subsetting
 # Setting directories and files paths
 # R functions & documentation
-# Specifying paths to folders and files
 # Install and update R packages
 # Install GGIR
 # Check package version
