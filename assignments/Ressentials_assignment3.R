@@ -1,10 +1,9 @@
 # Download file: https://bit.ly/3OGtwsq 
 
-# Run the full pipeline of GGIR (parts 1, 2, 3, 4, and 5)
-# try to calculate inactivity bouts of a minimum duration of 30 and 60 minutes
-
+# Run GGIR parts 1 and 2
+# set up two thresholds for MVPA (100 and 140)
 
 # tip: look up the documentation to find the parameter that allows to 
-# control the duration of the inactivity bouts
+# control the mvpa threshold
 
 # tip2: it is in params_phyact
