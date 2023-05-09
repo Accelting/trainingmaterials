@@ -1,9 +1,10 @@
 # Download file: https://bit.ly/3OGtwsq 
 
-# Run GGIR parts 1 and 2
-# set up two thresholds for MVPA (100 and 140)
+# Control the extraction of the ID from the recording:
+# Make that GGIR uses the characters that are before the dot in 
+# the filename as ID (GGIR01)
 
 # tip: look up the documentation to find the parameter that allows to 
-# control the mvpa threshold
+# control the extraction of the ID
 
-# tip2: it is in params_phyact
+# tip2: it is in params_general

@@ -1,7 +1,7 @@
 # Download file: https://bit.ly/3OGtwsq 
 
 # Open RStudio and an empty script
-# Create a GGIR function call
-# Define datadir and outputdir 
-# Tip: look up the documentation of these parameters
-# Run the script via the source button
+
+# Run GGIR for first time! 
+# Tip: to run GGIR, you should always define the datadir and outputdir
+# Not sure what they are? Look up the documentation!

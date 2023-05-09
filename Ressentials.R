@@ -15,7 +15,7 @@
 # Check package version
 # The GGIR function (quick presentation)
 # Run GGIR for first time (datadir, outputdir)
-# Example of a character argument in GGIR
 # Example of a numeric argument in GGIR
+# Example of a character argument in GGIR
 # Example of a logical argument in GGIR
 # Example of using vectors in GGIR

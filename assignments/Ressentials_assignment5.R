@@ -1,10 +1,9 @@
 # Download file: https://bit.ly/3OGtwsq 
 
-# Run the full pipeline of GGIR (parts 1, 2, 3, 4, and 5)
-# try to calculate inactivity bouts of a minimum duration of 30 and 60 minutes
+# Control the timezone that is used in the generation of the timestamps.
+# The file was configured and used in Granada (Spain).
 
+# tip: look up the documentation to find the parameter(s) that allow to 
+# control the timezone used for the analysis.
 
-# tip: look up the documentation to find the parameter that allows to 
-# control the duration of the inactivity bouts
-
-# tip2: it is in params_phyact
+# tip2: it is in params_general
