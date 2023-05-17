@@ -14,7 +14,8 @@
 # Derive intensity levels: 0, 50, 100, 200, 400, 800
 # Derive the intensity gradient
 # Use thresholds for MVPA: 100 and 140
-# Advanced: calculate these variables over the windows: 0am to 7am, 7am to 10pm, 10pm to 0am next day
+# Advanced: calculate these variables over the windows: 
+# 0am to 6am, 6am to 12pm, 12pm to 6pm, and 6pm to 0am next day
 # ----------
 
 # Run the script via the source button
