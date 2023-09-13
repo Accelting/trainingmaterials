@@ -53,7 +53,7 @@ GGIR(# assignment 3
   HASIB.algo = "vanHees2015",
   HASPT.algo = "HDCZA",
   loglocation = "C:/GGIRtraining/sleeplog/sleeplog_GGIRtraining.csv",
-  colid = 1, coln1 = 2, nnights = 7,
+  colid = 1, coln1 = 2, 
   # we need to take care of the ID in order to match sleeplog ID with GGIR ID
   # so, we set idloc = 6 (see documentation on this argument), and we overwrite
   # the output from part 2 onwards (this is where GGIR defines the ID)
