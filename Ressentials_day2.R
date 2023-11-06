@@ -1,16 +1,3 @@
-# install R & RStudio (updates)
-# The RStudio interface
-# R scripts, source/run buttons
-# Objects
-# Classes
-# numeric
-# character
-# logical
-# Vectors
-# Subsetting
-# Assignment 1
-# Setting directories and files paths
-# Assignment 2
 # R functions & documentation
 # Install and update R packages
 # Install GGIR
