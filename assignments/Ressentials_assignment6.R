@@ -1,9 +1,8 @@
 # Download file: https://bit.ly/3OGtwsq 
 
-# Extract Moderate-to-vigorous physical activity estimates with two
-# different thesholds: 100 and 140
+# Obtain separate weekdays and weekend-days aggregates in part 5.
 
-# tip: look up the documentation to find the parameter that allow to 
-# set the threshold for MVPA
+# tip: look up the documentation to find the parameter(s) that allow to 
+# get the weekdays and weekend-days values in part 5.
 
-# tip2: it is in params_phyact
+# tip2: it is in params_output
