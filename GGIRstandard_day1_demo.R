@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------------
-# GGIR basic training: Running GGIR for first time. 
+# GGIR standard training: Running GGIR for first time. 
 # Vincent van Hees
 # Jairo H Migueles
 # -------------------------------------------------------------------------
@@ -15,10 +15,6 @@ library(GGIR)
 # Download file: https://bit.ly/3OGtwsq 
 
 GGIR(datadir = "C:/mystudy/mydata",
-     outputdir = "D:/myresults",
-     mode = 1:2, 
-     do.report = 2,
-     visualreport = FALSE)
-
+     outputdir = "D:/myresults")
 
 # 3 - try it out yourself!
