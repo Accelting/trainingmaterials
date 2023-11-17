@@ -34,10 +34,10 @@ library(GGIR)
 GGIR(# assignment 3
   datadir = "C:/GGIRtraining/file/",
   outputdir = "C:/GGIRtraining/assignments/",
-  mode = 1:4,
+  mode = 3:4,
   overwrite = TRUE,
   strategy = 4,
-  maxdur = 3,
+  max_calendar_days = 3,
   qlevels = c((1440 - 120) / 1440,
               (1440 - 60) / 1440,
               (1440 - 30) / 1440,
@@ -45,9 +45,7 @@ GGIR(# assignment 3
   ilevels = c(0, 50, 100, 200, 400, 800),
   iglevels = TRUE,
   mvpathreshold = c(100, 140),
-  qwindow = c(0, 7, 22, 24),
-  HASIB.algo = "vanHees2015",
-  HASPT.algo = "HDCZA")
+  qwindow = c(0, 6, 12, 18, 24) )
 
 
 

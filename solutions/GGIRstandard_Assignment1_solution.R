@@ -21,4 +21,4 @@ GGIR(# assignment 1
      outputdir = "C:/GGIRtraining/assignments/",
      mode = 1:2,
      strategy = 4,
-     maxdur = 3)
+     max_calendar_days = 3)

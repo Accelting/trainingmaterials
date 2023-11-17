@@ -14,7 +14,7 @@
 # Derive intensity levels: 0, 50, 100, 200, 400, 800
 # Derive the intensity gradient
 # Use thresholds for MVPA: 100 and 140
-# Advanced: calculate these variables over the windows: 0am to 7am, 7am to 10pm, 10pm to 0am next day
+# Advanced: calculate these variables over the windows: 0am to 6am, 6am to 10pm, 10pm to 0am next day
 # ----------
 
 # Run the script via the source button
@@ -31,13 +31,13 @@ GGIR(# assignment 2
      mode = 2,
      overwrite = TRUE,
      strategy = 4,
-     maxdur = 3,
-     qlevels = c((1440 - 120) / 1440,
-                 (1440 - 60) / 1440,
+     max_calendar_days = 3,
+     qlevels = c((1440 - 120) / 1440, # M120
+                 (1440 - 60) / 1440,  # M60
                  (1440 - 30) / 1440,
                  (1440 - 5) / 1440),
-     ilevels = c(0, 50, 100, 200, 400, 800),
+     ilevels = c(0, 50, 100, 200, 400, 800), # ENMO - mg
      iglevels = TRUE,
-     mvpathreshold = c(100, 140),
+     mvpathreshold = c(100, 140),  # ENMO - mg
      # advanced
-     qwindow = c(0, 7, 22, 24))
+     qwindow = c(0, 6, 12, 18, 24))
